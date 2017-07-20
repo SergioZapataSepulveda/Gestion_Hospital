@@ -1,0 +1,515 @@
+
+
+body {
+   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.55;
+  color: #333;
+  font-size: 30;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+/* ==================================================
+  General
+  ================================================== */
+a {
+  text-decoration: none !important;
+color: rgb(0, 47, 78);
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+a:hover {
+  text-decoration: none !important;
+  color: rgb(38, 189, 62);
+  font-weight: bolder;
+    font-size: 14px;
+}
+
+.table{
+  height: 50px;
+
+}
+
+
+/* ==================================================
+  Elements
+  ================================================== */
+  .graph {
+  	width: 100%;
+  	height: 150px;
+  }
+  .TutuloEstadisticas{
+    color:rgb(19, 118, 181);
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: -4px;
+  }
+  .bar {
+  	width: 20px;
+  	margin: 2px;
+  	display: inline-block;
+    background-color: #f55757;
+  	color: #f55757;
+  }
+
+  .tabla_Grafico{
+    color: rgb(107, 13, 154);
+    width: 100%;
+    height: 10px;
+  }
+.img{
+  width: 100%;
+}
+
+#anchoTabla{
+  width: 15%;
+}
+.digitoVerificador{
+  width: 30px;
+}
+
+
+#TituloFuncion{
+  color:rgb(32, 174, 209);
+   text-align: right;
+   font-size: 44px;
+   font-weight: ;
+   font-style: italic;
+   padding-right: 30px;
+}
+
+.holaPaciente{
+  margin-left: 16px;
+  color: rgb(64, 90, 98);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+#botonCrear{
+  position: absolute;
+  right: 0;
+  margin-right: 17px;
+}
+
+
+.error{
+  color: rgb(218, 55, 20);
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: #199EB8;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.btn:hover {
+  background-color: #1988b8;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn:focus {
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #199EB8;
+}
+
+
+
+section {
+  padding: 85px 0;
+}
+
+.card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.usuarioActivo{
+color: rgb(0, 76, 156);
+text-align: right;
+padding-right: 13px;
+padding-top: 13px;
+}
+
+
+#menuUsuarios{
+
+  text-decoration: none;
+  color: rgb(0, 64, 101);
+  padding-left: 20px;
+  border-width: 1px;
+  border-color: rgb(22, 49, 62);
+  width: 250px;
+background-color: rgb(220, 233, 250);
+border-left: 12px solid rgb(9, 119, 143);
+
+}
+
+
+
+
+
+.scrolltop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #199EB8;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+  color: #fff !important;
+  opacity: .75;
+}
+
+/* ==================================================
+  Hero Styling
+================================================== */
+.hero {
+  display: table;
+  position: relative;
+  background-image: url(../imgenes/doctor.jpg);
+  background-size: cover;
+  padding: 150px 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.hero:after {
+  content: '';
+  z-index: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hero-brand {
+  margin-bottom: 20px;
+
+}
+
+.hero-brand:hover {
+  opacity: .80;
+}
+
+.tagline {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  margin: 45px 0 75px 0;
+  color: #fff;
+}
+
+/* ==================================================
+  Header Styling
+================================================== */
+#header {
+  background: #199EB8;
+  height: 70px;
+}
+
+#header #logo {
+  margin: 10px 20px 0px 0;
+}
+
+#header #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 2px 0;
+  line-height: 1;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+}
+
+#header #logo img {
+  padding: 0;
+  margin-right: 80px;
+  max-height: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Nav Meu Container */
+#nav-menu-container {
+  margin: 0;
+}
+
+
+
+/* Nav Meu Styling */
+.nav-menu a {
+  padding: 22px 10px 22px 22px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+}
+
+
+
+/* ==================================================
+  Contact Section
+  ================================================== */
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#contact h2 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #199EB8;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #199EB8;
+  float: left;
+}
+
+#contact .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+#contact .form #sendmessage {
+  color: #199EB8;
+  border: 1px solid #199EB8;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+
+
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input, #contact .form textarea {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#contact .form button[type="submit"] {
+  background: #199EB8;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #23c2e1;
+}
+
+/* ==================================================
+  Footer Styling
+  ================================================== */
+
+
+#footer {
+  background : #1a1f20;
+  color      : rgb(255, 255, 255);
+  height     : 50px;
+  padding    : 15px 0px 0px 0px; /*top right bottom left */
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size  : 13px;
+  position   : fixed;
+  bottom     : 0;
+  width      :100%;
+}
+
+
+
+
+
+
+
+/* ==================================================
+  Responsive Styling
+  ================================================== */
+
+
+
+@media (max-width: 768px) {
+
+
+  #footer {
+    background : #1a1f20;
+    color      : rgb(255, 255, 255);
+    height     : 60px;
+    padding    : 10px 0px 15px 20px; /*top right bottom left */
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size  : 12px;
+    position   : fixed;
+    bottom     : 0;
+    width      :100%;
+  }
+
+
+
+
+
+
+
+}
